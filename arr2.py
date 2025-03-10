@@ -1,0 +1,16 @@
+import numpy as np
+#ar = array("i",[1,2,3,4,5,6])
+#print(ar)
+print("-------")
+print (np.arange(0,50,2))
+print("------------")
+print(np.arange(51,1,-2))
+print("---------------------------------------------------------------")
+print(np.linspace(0.0,2.0,num=6))
+
+ar = np.random.rand(3,3)
+print (ar)
+ar2 = np.random.randint(1,60, size=6)
+print(ar2)
+matriz = np.random.randint(1,60,size=(4,4))
+print(matriz)
